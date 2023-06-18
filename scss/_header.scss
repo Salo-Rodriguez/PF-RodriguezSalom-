@@ -1,0 +1,35 @@
+header{
+    height: 100px;
+    background-color: $color-header;
+}
+.navbar{
+    .navbar-collapse {
+        background-color: $color-header;
+        padding: 10px 30px;
+    }
+    .navbar-brand p{
+    margin: 0;
+    }
+}
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-top: -30px;
+}
+.navbar-nav{
+    .nav-link.show {
+        color: $color-texto;
+    }
+    .nav-link{
+        color: $color-texto;
+    }
+}
+.navbar-toggler-icon{
+        background-image: url(../img/logo/menu-abierto.png);
+}
+@media screen and (min-width: 1440px){
+    .nav-move{
+    display: flex;
+    margin-left: 50rem;
+}
+}

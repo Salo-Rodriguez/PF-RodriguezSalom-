@@ -1,0 +1,79 @@
+@import "generales";
+@import "variables";
+@import "header";
+@import "footer";
+@import "main";
+@import "fondos";
+@import "mixins";
+@import "error404";
+@import "animation";
+
+// $medias: mobile;
+
+// @if $medias == desktop{
+//     .inicio{
+//         background: $color-inicio;
+//         background-size: 100% 100%;
+//     }
+//     .fd-eq{
+//         background: $color-fd-eq;
+//     }
+//     .seg-pag{
+//         background-image: url(../img/src/1522410569_000201_1522410984_noticia_normal.png);
+//         background-size: 100% 100%;
+//         background-repeat: no-repeat;
+//     }
+//     .terc-pag{
+//         background-image: url(../img/src/Spa\,\ Belgica\ imagen.png);
+//         background-size: 100% 100%;
+//         background-repeat: no-repeat;
+//     }
+//     .cuarta-pag{
+//         background-image: url(../img/src/Singapur\,\ Marina\ Bay.png);
+//         background-size: 100% 100%;
+//         background-repeat: no-repeat;
+//     }
+//     .quinta-pag{
+//         background-image: url(../img/src/yasmarine\ compu2.png);
+//         background-size: 100% 100%;
+//         background-repeat: no-repeat;
+//     }
+// }
+// @else if $medias == mobile{
+//     .inicio{
+//         background: $color-inicio;
+//         background-size: 100% 100%;
+//     }
+//     .fd-eq{
+//         background: $color-fd-eq;
+//     }
+//     @media screen and (max-width: 756px){
+//         .seg-pag{
+//             background-image: url(../img/src/monacofondo.png);
+//         }
+//     }
+//     @media screen and (max-width: 756px){
+//         .terc-pag{
+//             background-image: url(../img/src/spa\ cel.png);
+//         }
+//     }
+//     @media screen and (max-width: 756px){
+//         .cuarta-pag{
+//             background-image: url(../img/src/Marina\ bay\ cel\ \(1\).png);
+//         }
+//     }
+//     @media screen and (max-width: 756px){
+//         .quinta-pag{
+//             background-image: url(../img/src/yasmarine\ cel.png);
+//         }
+//     }
+//     }
+// @else{
+//     .inicio{
+//         background: $color-inicio;
+//         background-size: 100% 100%;
+//     }
+//     .fd-eq{
+//         background: $color-fd-eq;
+//     }
+// }

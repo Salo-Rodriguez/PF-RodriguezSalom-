@@ -1,0 +1,99 @@
+main{
+    padding: 50px ;
+}
+.boton{
+    border-style: none;
+    background-image: url(../img/src/Monaco\,\ Monaco.png );
+    background-size: 50% 50%;
+    background: $boton-uno;
+    border-radius: $borde-radio;
+    color: $color-texto;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: $sombra;
+}
+.foto{
+    width: 100%;
+}
+.btnuno{
+    background-color: $boton-secundario;
+    border-radius: $borde-radio;
+    border-style: none;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+}
+.btndos{
+    background-color: $boton-terc;
+    border-radius: $borde-radio;
+    border-style: none;
+    font-size: small;
+    width: 30%;
+    margin-left: 35%;
+    padding: 10px;
+}
+.mb-3{
+    color: #000000;
+    justify-items: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container img {
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    background: $boton-uno;
+    color: $color-texto;
+    text-decoration: none;
+    border-radius: $borde-radio;
+    text-align: center;
+    font-size: x-large;
+    transition: background-color 0.3s ease;
+        &:hover{
+                background-color: $color-header;
+                color: $color-texto;
+            }  
+}
+.marg-ccto{
+    margin-top: 25%;
+    animation: slide-in 1s ease-in-out;
+}
+.circuitos{
+    display: block;
+    margin: auto;
+}
+button.info{
+    background: $boton-uno;
+    border-radius: $borde-radio;
+    padding: 20px;
+    border-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+section div div{
+    button a{
+    text-decoration: none;
+    color: $color-texto;
+}
+    label.form-check-label{
+    font-size: small;
+}
+    input{
+    size: 20px;
+}
+.fotoerror{
+    margin-top: -10%;
+}
+}

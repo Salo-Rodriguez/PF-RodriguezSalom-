@@ -1,0 +1,311 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Formula1 Display", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Formula1 Display";
+  src: url("../fonts/formula1.ttf") format("truetype");
+}
+header {
+  height: 100px;
+  background-color: #e00700;
+}
+
+.navbar .navbar-collapse {
+  background-color: #e00700;
+  padding: 10px 30px;
+}
+.navbar .navbar-brand p {
+  margin: 0;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  margin-top: -30px;
+}
+
+.navbar-nav .nav-link.show {
+  color: #fff;
+}
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../img/logo/menu-abierto.png);
+}
+
+@media screen and (min-width: 1440px) {
+  .nav-move {
+    display: flex;
+    margin-left: 50rem;
+  }
+}
+footer {
+  height: 100%;
+  background-color: rgba(224, 7, 0, 0);
+}
+
+footer div ul {
+  display: flex;
+  justify-content: right;
+}
+footer div ul li {
+  list-style-type: none;
+}
+footer div ul li .pie {
+  width: 70px;
+  height: 70px;
+  margin-right: 40px;
+}
+footer div ul li .pie1 {
+  width: 80px;
+  height: 80px;
+  margin-right: 40px;
+  margin-top: -6px;
+}
+footer div p {
+  font-size: small;
+  color: rgba(69, 69, 69, 0.462745098);
+  text-align: right;
+  margin-right: 35px;
+}
+footer div p .letra-circuitos {
+  font-size: small;
+  color: rgba(255, 255, 255, 0.6235294118);
+  text-align: right;
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 756px) {
+  .pie {
+    width: 40%;
+    height: 40%;
+  }
+  footer div ul li a img.pie {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .pie1 {
+    width: 50%;
+    height: 50%;
+  }
+  footer div ul li a img.pie1 {
+    width: 60px;
+    height: 60px;
+  }
+}
+main {
+  padding: 50px;
+}
+
+.boton {
+  border-style: none;
+  background-image: url(../img/src/Monaco\,\ Monaco.png);
+  background-size: 50% 50%;
+  background: linear-gradient(180deg, rgba(14, 13, 13, 0.4) 0%, rgba(203, 188, 188, 0.119312) 0.01%, rgba(197, 181, 181, 0.141667) 7.29%, rgba(184, 173, 173, 0.120667) 39.06%, rgba(224, 208, 208, 0.0495399) 78.12%, rgba(230, 214, 214, 0.03125) 92.19%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 25px;
+  color: #fff;
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.foto {
+  width: 100%;
+}
+
+.btnuno {
+  background-color: rgba(224, 7, 0, 0.4196078431);
+  border-radius: 25px;
+  border-style: none;
+  width: 50%;
+  margin-left: 25%;
+  padding: 10px;
+}
+
+.btndos {
+  background-color: rgba(61, 0, 0, 0.5176470588);
+  border-radius: 25px;
+  border-style: none;
+  font-size: small;
+  width: 30%;
+  margin-left: 35%;
+  padding: 10px;
+}
+
+.mb-3 {
+  color: #000000;
+  justify-items: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  transition: transform 0.3s ease;
+}
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(180deg, rgba(14, 13, 13, 0.4) 0%, rgba(203, 188, 188, 0.119312) 0.01%, rgba(197, 181, 181, 0.141667) 7.29%, rgba(184, 173, 173, 0.120667) 39.06%, rgba(224, 208, 208, 0.0495399) 78.12%, rgba(230, 214, 214, 0.03125) 92.19%, rgba(255, 255, 255, 0) 100%);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  text-align: center;
+  font-size: x-large;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #e00700;
+  color: #fff;
+}
+
+.marg-ccto {
+  margin-top: 25%;
+  animation: slide-in 1s ease-in-out;
+}
+
+.circuitos {
+  display: block;
+  margin: auto;
+}
+
+button.info {
+  background: linear-gradient(180deg, rgba(14, 13, 13, 0.4) 0%, rgba(203, 188, 188, 0.119312) 0.01%, rgba(197, 181, 181, 0.141667) 7.29%, rgba(184, 173, 173, 0.120667) 39.06%, rgba(224, 208, 208, 0.0495399) 78.12%, rgba(230, 214, 214, 0.03125) 92.19%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 25px;
+  padding: 20px;
+  border-style: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+section div div button a {
+  text-decoration: none;
+  color: #fff;
+}
+section div div label.form-check-label {
+  font-size: small;
+}
+section div div input {
+  size: 20px;
+}
+section div div .fotoerror {
+  margin-top: -10%;
+}
+
+.inicio {
+  background: linear-gradient(180deg, #15151E 0%, #000000 100%);
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .image-container img {
+    animation: moveIn 1s ease-in-out forwards;
+  }
+}
+.fd-eq {
+  background: linear-gradient(100deg, #020220 20%, #000000 100%);
+}
+
+.seg-pag {
+  background-image: url(../img/src/1522410569_000201_1522410984_noticia_normal.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 756px) {
+  .seg-pag {
+    background-image: url(../img/src/monacofondo.png);
+  }
+}
+.terc-pag {
+  background-image: url(../img/src/Spa\,\ Belgica\ imagen.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 756px) {
+  .terc-pag {
+    background-image: url(../img/src/spa\ cel.png);
+  }
+}
+.cuarta-pag {
+  background-image: url(../img/src/Singapur\,\ Marina\ Bay.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 756px) {
+  .cuarta-pag {
+    background-image: url(../img/src/Marina\ bay\ cel\ \(1\).png);
+  }
+}
+.quinta-pag {
+  background-image: url(../img/src/yasmarine\ compu2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 756px) {
+  .quinta-pag {
+    background-image: url(../img/src/yasmarine\ cel.png);
+  }
+}
+main h1 {
+  margin-top: 3%;
+}
+
+main section div div .fotoerror {
+  margin-top: -13%;
+  width: 70%;
+  margin-left: 13%;
+}
+
+@media screen and (max-width: 756px) {
+  main section div div .fotoerror {
+    margin-top: -13%;
+    width: 100%;
+    margin-left: 1%;
+  }
+}
+@keyframes moveIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
